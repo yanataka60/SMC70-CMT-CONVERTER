@@ -30,7 +30,7 @@ SONY BASICで作ったプログラムを相互で読み込んで利用する用�
 
 　　input.binをCMTファイル名をtestとしてoutput.wavファイルを作成します。
 
-　　BASICプログラム 01:BASIC Programの時のロードアドレス、実行アドレスは$0000です。BASICからCLOADでLOADするときにCMTファイル名を指定しないとロードできません。ここで指定するCMTファイル名を忘れないようにしてください。
+　　BASICプログラムの時はFileIDを01hとし、ロードアドレス、実行アドレスは$0000です。BASICからCLOADでLOADするときにCMTファイル名を指定しないとロードできません。ここで指定するCMTファイル名を忘れないようにしてください。
 　　
 
 ### SMC70CMT2BIN.exe
