@@ -14,12 +14,7 @@ SONY BASICで作ったプログラムを相互で読み込んで利用する用�
 
 　　SMC70BIN2CMT 変換元バイナリファイル名 SMC-70用WAVファイル名 ロード先頭番地 実行先頭番地 FileID CMTファイル名(8文字+拡張子3文字)
  
-FileID:
-        : 00   :BINARY
-        : 01   :BASIC Program
-        : 02   :BASIC DATA File
-        : 03   :BASIC LINK Module
-        : 04-FF:Reserved
+　　FileIDは後述スタンダードラベルを参照してください。
 
 　例)機械語プログラム
 
